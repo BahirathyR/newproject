@@ -1,4 +1,4 @@
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+ @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 @media(min-width:768px) {
     body {
         margin-top: 50px;
@@ -36,7 +36,7 @@
 
 .top-nav>li {
     display: inline-block;
-    float: left;
+    
 }
 
 .top-nav>li>a {
@@ -75,16 +75,18 @@
 
 @media(min-width:768px) {
     .side-nav {
-        position: fixed;
-        top: 60px;
-        left: 225px;
+        position: relative;
+        top: 18px;
+        left: 0px;
         width: 225px;
+        background-color:#0b7ce6e0;
+        height: 1000px;
         margin-left: -225px;
         border: none;
         border-radius: 0;
         border-top: 1px rgba(0,0,0,.5) solid;
         overflow-y: auto;
-        background-color: rgb(37, 161, 161);
+        /* background-color: rgb(37, 161, 161); */
         /*background-color: #5A6B7D;*/
         bottom: 0;
         overflow-x: hidden;
@@ -99,7 +101,7 @@
     .side-nav li a:hover,
     .side-nav li a:focus {
         outline: none;
-        background-color: #25b9b9 !important;
+        background-color:black !important;
     }
 }
 
@@ -110,7 +112,7 @@
 
 .side-nav>li>ul>li>a {
     display: block;
-    padding: 10px 15px 10px 38px;
+    padding: 20px 15px 10px 38px;
     text-decoration: none;
     /*color: #999;*/
     color: rgb(0, 0, 0);    
@@ -177,3 +179,581 @@
 {margin-top:20px;
 }
 
+
+.table-upgrade td:nth-child(2),
+.table-upgrade td:nth-child(3){
+   text-align: center;
+} 
+.tftable {font-size:12px;color:#333333;display:inline-block;width:200px;border-width: 1px;border-color: #729ea5;border-collapse: collapse; margin-right:20px;}
+.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;width:200px;}
+.tftable tr {background-color:#d4e3e5;width:200px;}
+.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;width:200px;}
+.tftable tr:hover {background-color:#ffffff;}
+.tables {display:inline-block;}
+th {font-size:12px;background-color:#009edf;border-width: 1px;padding: 8px;border-style: solid;border-color: gray;text-align:center;width:200px;}
+td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: gray;width:200px;  color: black;}
+  
+table{
+  
+      border: 1px solid lightblue;
+    /* width:"100%"; */
+    width: 800px;
+    margin: 0px ;
+    margin-top: 123px;
+    margin-left: -44px; 
+} 
+   
+
+.dropdown{
+    padding-top:10px;
+}
+.navbar{
+    background-color:#58239c;
+    color:blue;
+    border-color:#cccccc;
+}
+/* .active{
+  background-color:red; */
+/* } */
+.container-fluid{
+    background-color: #1f24c3;
+        margin-top: 30px;
+}
+
+/* .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+       /* background-color:#0e0c69; */
+       /* background-color:rgb(33, 189, 236);  */
+
+       /* margin-top: 100px; */
+     
+    
+/* } */
+.navbar-inverse{
+    background-color: #1f24c3;
+    border-color: #0fc3c330;
+    margin-top: 105px;
+}
+
+/* certificate */
+
+
+/*Remove that CSS*/
+.col-md-3 {
+    margin-left:5%;
+    }
+/*Remove that CSS*/
+
+
+
+button {
+  margin: 20px 0;
+  margin-left: 280px;
+  line-height: 34px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  outline:none !important;
+  width:100%;
+  
+}
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+    color: black;
+}
+button:active {
+
+  outline:none;
+}
+
+button.ribbon {
+  
+  outline:none;
+  outline-color: transparent;
+}
+button.ribbon:before, button.ribbon:after {
+  top: 5px;
+  z-index: -10;
+}
+button.ribbon:before {
+  border-color: #53dab6 #53dab6 #53dab6 transparent;
+  left: -25px;
+  border-width: 17px;
+}
+button.ribbon:after {
+  border-color: #53dab6 transparent #53dab6 #53dab6;
+  right: -25px;
+  border-width: 17px;
+}
+
+button:before, button:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 0;
+  outline:none;
+}
+
+button.btn-default:before {
+  border-color: #757575 #757575 #757575 transparent;
+    }
+    button.btn-default:after {
+  border-color: #757575 transparent #757575 #757575;
+    }
+    
+    
+    
+    button.btn-primary:before {
+  border-color: #2e6da4 #2e6da4 #2e6da4 transparent;
+    }
+    button.btn-primary:after {
+  border-color: #2e6da4 transparent #2e6da4 #2e6da4;
+    }
+    
+    
+    button.btn-success:before {
+  border-color: #398439 #398439 #398439 transparent;
+    }
+    button.btn-success:after {
+  border-color: #398439 transparent #398439 #398439;
+    }
+    
+    
+    button.btn-info:before {
+  border-color: #269abc #269abc #269abc transparent;
+    }
+    button.btn-info:after {
+  border-color: #269abc transparent #269abc #269abc;
+    }
+    
+    
+    button.btn-warning:before {
+  border-color: #d58512 #d58512 #d58512 transparent;
+    }
+    button.btn-warning:after {
+  border-color: #d58512 transparent #d58512 #d58512;
+    }
+    
+    
+    button.btn-danger:before {
+  border-color: #ac2925 #ac2925 #ac2925 transparent;
+    }
+    button.btn-danger:after {
+  border-color: #ac2925 transparent #ac2925 #ac2925;
+    }
+    
+    
+
+    /* marksheet */
+    
+        body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.well{
+      background-color: #f5f5f500;
+      color:white;
+
+}
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+  .homesscreen{
+    /* background-image: url("http://www.ecu.edu.au/__data/assets/image/0004/682366/Education_Banner.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-color: rgba(0, 231, 255, 0.25);
+
+    /* background-color:wheat; */
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    /* position: fixed; */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+   }
+   .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: white;
+    background-color: #ffffff05;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075)
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: white;
+}
+}
+
+
+/* main */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500,300,100);
+   @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+   @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+   
+   html, body {
+       height: 100%;
+       width: 100%;
+
+   }
+   
+   /* body {
+       font-family: 'Raleway',sans-serif;
+       position: relative; */
+       /* background: rgba(0, 0, 0, 0) url("../img/ptn.png") repeat scroll 0 0; */
+   /* } */
+   
+   .in-page {
+       min-height: 520px;
+   }
+   
+   .main {
+       position: relative;
+   }
+   
+   a {
+       color: #1b5a7c;
+   }
+   
+   a:hover, a:focus {
+       color: #1b5a7c;
+   }
+   
+   .btn-cyan {
+       background-color: #1b5a7c;
+       color: #fff;
+   }
+   
+   .btn-cyan:hover {
+       color: #fff;
+       opacity: 0.9;
+   }
+   
+   .form-control:focus {
+       border-color: #1b5a7c;
+       box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(24, 204, 162, 0.6);
+       outline: 0 none;
+   }
+   
+   .min-height {
+       min-height: 380px;
+   }
+   
+   .login-screen {
+       background-image: url("http://www.dpulse.com/images/ekg-and-binary-background-slider.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       -moz-background-size: cover;
+       -webkit-background-size: cover;
+       position: fixed;
+       top: 0;
+       bottom: 0;
+       right: 0;
+       left: 0;
+   }
+   
+   .homescreen{
+    background-image: url(https://education.maharashtra.gov.in/img/head2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+   }
+   
+   .login-screen:before {
+       content: "";
+       background: rgba(0,0,0, 0.5);
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       left: 0;
+   }
+   
+   .login-center {
+       text-align: left;
+   }
+   
+   .login {
+       width: 320px;
+       color: #fff;
+   }
+   
+   .login .login-form {
+       text-align: left;
+   }
+   
+   .login label {
+       color: #fff;
+   }
+   
+   .login-form .input-group .form-control {
+       background: none;
+       height: 44px;
+       color: #ddd;
+   }
+   
+   .login-form .input-group .input-group-addon {
+       background: none;
+   }
+   
+   .login-form .input-group .input-group-addon .glyphicon {
+       color: #1b5a7c;
+   }
+   
+   .login-form .input-group .form-control::-moz-placeholder {
+       color: #fff;
+       opacity: 0.3;
+   }
+   
+   .login .sign-btn input.btn {
+       background: #1b5a7c;
+       border-color: #1b5a7c;
+       color: #fff;
+       width: 180px;
+       
+   }
+   
+   .login .sign-btn a {
+       text-decoration: none;
+   }
+   
+   .login .checkbox {
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+   
+   .login .forgot {
+       display: inline-block;
+       margin: 20px 0;
+   }
+   .dropbtn {
+       background: #1b5a7c;
+       border-color: #1b5a7c;
+       color: #fff;
+       width: 180px;
+       height: 36px;
+      
+   }
+   
+   .dropdown {
+       position: relative;
+       display: inline-block;
+   }
+   
+   .dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #f5fdff;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+   }
+   
+   .dropdown-content a {
+       color: black;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+   }
+   
+   .dropdown-content a:hover {background-color: #f1f1f1}
+   
+   .dropdown:hover .dropdown-content {
+       display: block;
+   }
+   
+   .dropdown:hover .dropbtn {
+       background-color: #1b5a7c;
+   }
+   
+   /* Registration */
+   /* @import "font-awesome.min.css";
+   @import "font-awesome-ie7.min.css"; */
+   /* Space out content a bit */
+   body {
+     padding-top: 20px;
+     padding-bottom: 20px;
+   }
+   
+   /* Everything but the jumbotron gets side spacing for mobile first views */
+   .header,
+   .marketing,
+   .footer {
+     padding-right: 15px;
+     padding-left: 15px;
+   }
+   
+   /* Custom page header */
+   .header {
+     border-bottom: 1px solid #e5e5e5;
+   }
+   /* Make the masthead heading the same height as the navigation */
+   .header h3 {
+     padding-bottom: 19px;
+     margin-top: 0;
+     margin-bottom: 0;
+     line-height: 40px;
+   }
+   
+   /* Custom page footer */
+   .footer {
+     padding-top: 19px;
+     color: #777;
+     border-top: 1px solid #e5e5e5;
+   }
+   /* .image{ 
+    background-image:"/image/Image-8.jpg";
+   } */
+   
+   /* Customize container */
+   @media (min-width: 768px) {
+     .container {
+       max-width: 730px;
+     }
+   }
+   .container-narrow > hr {
+     margin: 30px 0;
+   }
+   
+   /* Main marketing message and sign up button */
+   .jumbotron {
+     text-align: center;
+     border-bottom: 1px solid #e5e5e5;
+   }
+   .jumbotron .btn {
+     padding: 14px 24px;
+     font-size: 21px;
+   }
+   
+   /* Supporting marketing content */
+   .marketing {
+     margin: 40px 0;
+   }
+   .marketing p + h4 {
+     margin-top: 28px;
+   }
+   
+   /* Responsive: Portrait tablets and up */
+   @media screen and (min-width: 768px) {
+     /* Remove the padding we set earlier */
+     .header,
+     .marketing,
+     .footer {
+       padding-right: 0;
+       padding-left: 0;
+     }
+     /* Space out the masthead */
+     .header {
+       margin-bottom: 30px;
+     }
+     /* Remove the bottom border on the jumbotron for visual effect */
+     .jumbotron {
+       border-bottom: 0;
+     }
+
+     .row {
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-top: -773px;
+        width: 1269px;
+    }
+   }

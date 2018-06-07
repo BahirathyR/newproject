@@ -8,10 +8,16 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('prodoc');
-  this.route('hosrec');
   this.route('home');
   this.route('records');
-  this.route('welcome');
+
+  this.route('enduser');
+  
+  this.route('marksheet');
+  this.route('certificate');
+  this.route('main');
+  this.route('govern');
+  this.route('service');
 });
 
 export default Router;

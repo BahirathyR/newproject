@@ -1,0 +1,118 @@
+
+  <div class ="homesscreen"> 
+         <div class="headerpart"> <img src="assets/image/gon.png" height="100" width="300" margin-top="1000px" margin-bottom="-20px" margin-left="1px" /></div>
+   <div class="main-header">
+      <h2 style="margin-left:30px; padding-top: 20px;margin-left:-50px;margin-top: -170px;margin-bottom:-108px;background-color:#0b7ce6e0;height:200px;width:1500px">
+         <p class="text-center" style="margin-top:70px;padding:20px;color:brown">GOVERNMENT OF MAHARASHTRA</p>
+      </h2>
+   </div>
+   <br><br>
+
+
+{{!-- <h1><center>Government of Maharastra</center></h1> --}}
+{{!-- <div>
+    <center>
+<form action="connect">Patient Id: <input type="text" name="patientid" value=""><br>
+<br>
+<input type="submit" value="Submit">
+</form>
+</center>
+</div> --}}
+
+
+<div id="wrapper">
+    <!-- Navigation -->
+    
+    {{!-- <div class="navbar navbar-inverse navbar-fixed-top" role="navigation"> --}}
+    
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            
+            
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://cijulenlinea.ucr.ac.cr/dev-users/">
+               
+            </a>
+        </div>
+        
+        <!-- Top Menu Items -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-right top-nav">
+            
+                
+                      
+            {{!-- <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Doctor</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class="fa fa-fw fa-user"></i> Edit Profile</a></li>
+                    <li><a href="#"><i class="fa fa-fw fa-cog"></i> Change Password</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#"><i class="fa fa-fw fa-power-off"></i> Logout</a></li>
+                </ul> --}}
+             
+        </ul>
+        </div>
+        <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+        <div>
+            <ul class="nav navbar-nav side-nav">
+                
+                <li>
+                   
+                    <a href="main" id="profile" {{action "show"}}><font color="white"><h4 class="glyphicon glyphicon-home"></h4>Dash Board</font></a>
+                   </li>
+                <li>
+                   <a href="mains" id="profile1" {{action "show1"}}><font color="white"><h4 class="glyphicon glyphicon-list-alt"></h4>Issue Marksheet</font></a>
+                    
+                </li>
+                <li>
+                    <a href="main" id="profile2" {{action "show2"}}><font color="white"><h4 class="glyphicon glyphicon-exclamation-sign"></h4>Request for Update</font></a>
+                </li>
+                <li>
+                    <a href="main" id="profile3" {{action "show3"}}><font color="white"><h4 class="glyphicon glyphicon-share"></h4>Share Marksheet</font></a>
+                </li>
+                <li>
+                    <a href="main" id="profile4"{{action "show4"}}><font color="white"><h4 class="glyphicon glyphicon-check	
+"></h4>Audit Trail</font></a>
+                </li>
+            </ul>
+            </div>
+        {{!-- </div> --}}
+         </div>
+    </div>
+    
+<div class="container">
+	<div class="row">
+	<h2><center>Maharastra State Board of Secondary and Higher Secondary Education</center></h2>
+	</div>
+    
+    <div class="row">
+    
+    <div class="col-md-6">       <!-- Standard button -->
+
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+{{!-- <button type="button" class="btn btn-primary ribbon">Class X MarkSheet</button> --}}
+<button  type="button" id="my"class="btn btn-primary ribbon"  margin-top= "-1650px"
+    margin-left= "186px"{{action "Submit"}}>Class X MarkSheet</button>
+<!-- Indicates a successful or positive action -->
+{{!-- <button type="button" class="btn btn-success ribbon">Class X Certificate</button> --}}
+<button  type="button" id="myBut"class="btn btn-success ribbon"margin-top="-1650px"{{action "Sub"}}>Class X Certificate</button>
+
+<!-- Contextual button for informational alert messages -->
+{{!-- <button type="button" class="btn btn-info ribbon">Class XII MarkSheet</button> --}}
+<button  type="button" id="Button"class="btn btn-info ribbon" margin-top="-1650px"{{action "Sb"}}>Class XII MarkSheet</button>
+
+<!-- Indicates caution should be taken with this action -->
+{{!-- <center><button type="button" class="btn btn-warning ribbon">Class XII Certificate</button> --}}
+<button  type="button" id="myB"class="btn btn-warning ribbon" margin-top="-1650px"{{action "S"}}>Class XII MarkSheet</button>
+
+
+</div>
+</div>
+</div>
+     
+

@@ -25,13 +25,13 @@
                 
                       
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Doctor</a>
-                {{!-- <ul class="dropdown-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin User <b class="fa fa-angle-down"></b></a>
+                <ul class="dropdown-menu">
                     <li><a href="#"><i class="fa fa-fw fa-user"></i> Edit Profile</a></li>
                     <li><a href="#"><i class="fa fa-fw fa-cog"></i> Change Password</a></li>
                     <li class="divider"></li>
                     <li><a href="#"><i class="fa fa-fw fa-power-off"></i> Logout</a></li>
-                </ul> --}}
+                </ul>
             </li>
         </ul>
         </div>
@@ -56,7 +56,7 @@
                 <div class="row">
                     <div class="col-xs-4 col-xs-offset-4 text-left">
                         <div class=" col-xs-6 tital">Doctor Name:</div>
-                        <div class=" col-xs-6 ">Dr.Thomas Edward</div>
+                        <div class=" col-xs-6 ">Dr.Shri Hari</div>
                         <div class="clearfix"></div>
                         <div class="bot-border"></div>
 
@@ -87,7 +87,7 @@
 
                 
 
-                        <div class="col-xs-6 tital ">Experience(in years):</div>
+                        <div class="col-xs-6 tital ">Experienc(in years):</div>
                         <div class="col-xs-6">15</div>
                         <div class="clearfix"></div>
                         <div class="bot-border"></div>
@@ -97,26 +97,27 @@
             <ul class="nav navbar-nav side-nav">
                 <li>
                    
-                    <a href="home" id="profile" {{action "show"}}><font color="black">Profile</font></a>
+                    <a href="home" id="dash" {{action "show"}}><font color="black">Dash Board</font></a>
                    
                 </li>
-                <li>
-                   <a href="home" id="profile1" {{action "show2"}}><font color="black">Hospital Records</font></a>
-                    {{!-- <ul id="submenu-2" class="collapse">
+                {{!-- <li>
+                    <a href="#" data-toggle="collapse" data-target="#submenu-2"><i class="fa fa-fw fa-star"></i><font color="black">Hospital Records</font><i class="fa fa-fw fa-angle-down pull-right"></i></a>
+                    <ul id="submenu-2" class="collapse">
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.1</a></li>
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.2</a></li>
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.3</a></li>
-                    </ul> --}}
-                </li>
+                    </ul>
+                </li> --}}
+               <li>
+                    <a href="prodoc" id="upload" {{action "hw"}}><font color="black">Upload Document</font></a>
+                </li> 
                 <li>
-                    <a href="investigaciones/favoritas"><i class="fa fa-fw fa-user-plus"></i><font color="black">Medication</font></a>
-                </li>
-                <li>
-                    <a href="prodoc"><i class="fa fa-fw fa-paper-plane-o"></i><font color="black">FirstAid Info</font></a>
+                    <a href="records" id="Issued" {{action "how"}}><font color="black">Issued Document</font></a>
                 </li>
                 <li>
                     <a href="#"><font color="black">Logout</font></a>
                 </li>
+                
             </ul>
             </div>
         </div>

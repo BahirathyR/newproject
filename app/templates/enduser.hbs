@@ -1,14 +1,9 @@
-<div class="page" >
-   <div class="headerpart"> <img src="assets/image/gon.png" height="100" width="300" margin-top="1000px" margin-bottom="-20px" margin-left="1px"/></div>
-   <div class="main-header">
-      <h2 style="margin-left:30px; padding-top: 20px;margin-left:-50px;margin-top: -170px;margin-bottom:-108px;background-color:blue;height:200px;width:1500px">
-         <p class="text-center" style="margin-top:70px;padding:20px">GOVERNMENT OF MAHARASHTRA</p>
-      </h2>
-   </div>
-</div>
-<br>
+{{!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ----------> --}}
 
-<div class="container" style="padding:100px;margin-left:-110px">
+<div class="container">
 	<div class="row">
         <div class="col-lg-5 col-md-5 col-sm-8 col-xs-9 bhoechie-tab-container">
             <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 bhoechie-tab-menu">
@@ -17,19 +12,20 @@
                   <h4 class="glyphicon glyphicon-home"></h4><br/>Dash Board
                 </a>
                 <a href="issued" class="list-group-item text-center">
-                  <h4 class="glyphicon glyphicon-list-alt"></h4><br/>Issued Marksheet
+                  <h4 class="glyphicon glyphicon-list-alt"></h4><br/>Issued Documents
                 </a>
                 <a href="uploaded" class="list-group-item text-center">
-                  <h4 class="glyphicon glyphicon-exclamation-sign"></h4><br/>Uploaded Marksheet
+                  <h4 class="glyphicon glyphicon-exclamation-sign"></h4><br/>Uploaded Documents
                 </a>
                 <a href="shared" class="list-group-item text-center">
-                  <h4 class="glyphicon glyphicon-share"></h4><br/>Share Marksheet
+                  <h4 class="glyphicon glyphicon-share"></h4><br/>Shared Documents
                 </a>
-                <a href="shared" class="list-group-item text-center">
-                  <h4 class="glyphicon glyphicon-check	
-"></h4><br/>Audit Trail
+                <a href="acivity" class="list-group-item text-center">
+                  <h4 class="glyphicon glyphicon-refresh"></h4><br/>Activity
                 </a>
-                
+                <a href="status" class="list-group-item text-center">
+                  <h4 class="glyphicon glyphicon-stats"></h4><br/>Status
+                </a>
               </div>
             </div>
             
@@ -62,12 +58,12 @@
                       <div class="container">
  <form>
    <div class="form-group row">
-<img src="assests/images/gon.png" style="width:20%;height:75px;margin-right:450px;margin-left:150px;margin-top:-33px">   
+<img src="assests/images/education.png" style="width:20%;height:75px;margin-right:450px;margin-left:150px;margin-top:-33px">   
   <div class="col-sm-10" >
     <p style="font-family:'Myriad Pro','sans-serif';margin-left:-697px;margin-top:-49px; font-size:10.0pt; color:#BE2D0F; ">Congratulations!Your Digilocker is linked with Aadhaar</p>
        {{!-- <input type="email"  class="form-control form-control-lg" id="lgFormGroupInput" placeholder="email" style="width:39%;height:34px; margin-left:-628px; margin-top:-11px"> --}}
                  {{!-- <button  type="button" id="myButton"class="btn btn-primary" style="height:25px;color:white;margin-top:-50px;margin-right:92px;background-color:#9d9d9d"{{action "Submit"}}>send verification link</button> --}}
-<div></div>
+
      </div>
    </div>
    </form>
@@ -448,13 +444,15 @@
 </div>
 </div>
 </div>
-   {{!-- <label for="lgFormGroupInput"    style="font-style: normal;font-weight:normal;margin-left: 45;margin-top:-40px;font-size: 12px; color:white"><p>This section shows all documents / certificates you have shared with others via email.
-</p></label> --}}
+   <label for="lgFormGroupInput"    style="font-style: normal;font-weight:normal;margin-left: 45;margin-top:-40px;font-size: 12px; color:white"><h3>shared Document</h3><p>This section shows all documents / certificates you have shared with others via email.
+</p></label>
                       <div class="container">
                       <form>
                             
 					<div class="row">
-			                     
+					
+							
+                      
     <ul class="socialIcons" style="margin-top:250px">
       {{!-- <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
                                     <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
@@ -491,13 +489,12 @@
 
   
 <style>
-  
   .well{
     width: 966px;
     height: 1px;
     padding: 46px;
     margin-bottom: 20px;
-    background-color: blueviolet;
+    background-color: #6ba8f7;
     border: 1px solid #e3e3e3;
     border-radius: 4px;
   }
