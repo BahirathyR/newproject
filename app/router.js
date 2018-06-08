@@ -12,12 +12,15 @@ Router.map(function() {
   this.route('records');
 
   this.route('enduser');
-  
+
   this.route('marksheet');
   this.route('certificate');
   this.route('main');
   this.route('govern');
   this.route('service');
+  this.route('share');
+  this.route('audit');
+  this.route('user');
 });
 
 export default Router;

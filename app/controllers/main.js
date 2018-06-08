@@ -12,10 +12,10 @@ export default Controller.extend({
       this.transitionToRoute('govern');
       },         
       show3: function(){
-     this.transitionToRoute('firstaid');
+     this.transitionToRoute('share');
      },
      show4: function(){
-    this.transitionToRoute('login');
+    this.transitionToRoute('audit');
      }
     
     }
