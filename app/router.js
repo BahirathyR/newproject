@@ -21,6 +21,9 @@ Router.map(function() {
   this.route('share');
   this.route('audit');
   this.route('user');
+  this.route('admin');
+  this.route('admincert');
+  this.route('sentrequest');
 });
 
 export default Router;
