@@ -1,1 +1,38 @@
-{{outlet}}
+{{!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ----------> --}}
+
+{{!-- <script src="https://github.com/makeusabrew/bootbox/releases/download/v4.4.0/bootbox.min.js"></script> --}}
+
+<div class="container">
+	<div class="row">
+<form>
+    <div class="form-group">
+      <label style="color:black;margin-bottom:10px" for="usr">Enter Reg.No.</label>
+      <input type="text" class="form-control" id="usr" style="width:31%;margin-top: -27px;
+    margin-left: 241px;">
+    </div>
+            <button  type="button" id="mybutton" class="btn btn-primary" style="height: 50px;width:200px;color:black; font-size: -5px;    margin-left: 144px;
+
+margin-bottom:10px;    margin-top: 103px;
+"{{action "submit"}}>Submit
+		    {{!-- <input type="submit" value="send"> --}}
+		</button>
+        </form>
+	</div>
+</div>
+{{!-- <script>
+    $("#sub_form").submit(function(e) {
+    e.preventDefault();
+    alert(12121212);
+    
+    bootbox.confirm("Are you sure want to delete this video?", function(result) {
+        if (result) {
+            console.log('sumvfvf');
+            $(this).unbind("submit").submit();
+            return;
+        }
+    }); 
+});
+</script> --}}
