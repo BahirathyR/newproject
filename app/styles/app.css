@@ -80,7 +80,7 @@
         left: 0px;
         width: 225px;
         background-color:#0b7ce6e0;
-        height: 1000px;
+        height: 550px;
         margin-left: -225px;
         border: none;
         border-radius: 0;
@@ -171,12 +171,26 @@
     border-top: 0;
 }
 
+.table-bordered {
+    border: 1px solid #ddd;
+    margin-left: -10px;
+    margin-top: 37px;
+    
+}
+.table-borders {
+    border: 1px solid #ddd;
+    margin-left: 29px;
+    margin-top: 37px;
+    
+}
+
 
 .table-user-information > tbody > tr > td {
     border-top: 0;
 }
 .toppad
-{margin-top:20px;
+{
+    margin-top:20px;
 }
 
 
@@ -261,6 +275,9 @@ button {
     margin-bottom: 0;
     text-align: right;
     color: black;
+}
+.main-header{
+    margin-top:120px;
 }
 button:active {
 
@@ -381,6 +398,60 @@ button.btn-default:before {
       color:white;
 
 }
+ul.socialIcons {
+    padding: 0;
+    text-align: center;
+}
+.socialIcons li {
+    background: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    margin-top: 10%;
+    border-radius: 2em;
+    overflow:hidden;
+}
+.socialIcons li a {
+    display: block;
+    padding: .5em;
+    max-width: 2.3em;
+    min-width: 2.3em;
+    height: 2.3em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    transition:.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+}
+.socialIcons li i {
+    margin-right:.5em;
+}
+.socialIcons li:hover a {
+    max-width:200px;
+    padding-right:1em;
+}
+.socialIcons .facebook {
+    background: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+    color:white;
+}
+.socialIcons .twitter {
+    background: #00aced;
+    box-shadow: 0 0 16px #00aced;
+}
+.socialIcons .instagram {
+    background: #cd486b;
+    box-shadow: 0 0 16px #cd486b;
+}
+.socialIcons .pinterest {
+    background: #c92228;
+    box-shadow: 0 0 16px #c92228;
+}
+.socialIcons .steam {
+    background: #666666;
+    box-shadow: 0 0 16px #666666;
+}
 /* Custom page footer */
 .footer {
   padding-top: 19px;
@@ -391,7 +462,8 @@ button.btn-default:before {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+      margin-top:120px;
+    max-width: 865px;
   }
 }
 .container-narrow > hr {
@@ -458,7 +530,7 @@ button.btn-default:before {
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: white;
+    color: black;
     background-color: #ffffff05;
     background-image: none;
     border: 1px solid #ccc;
@@ -709,7 +781,7 @@ label {
    /* Customize container */
    @media (min-width: 768px) {
      .container {
-       max-width: 730px;
+       max-width: 865px;
      }
    }
    .container-narrow > hr {
@@ -762,13 +834,18 @@ label {
    /* share */
    
    .wells{
-    width: 966px;
+    width: 1010px;
     height: 1px;
     padding: 46px;
     margin-bottom: 20px;
     background-color: #6ba8f7;
     border: 1px solid #e3e3e3;
+    color:white;
     border-radius: 4px;
+    margin-left: 271px;
+    margin-left: 21px;
+    margin-top: 148px;
+
   }
   body {
     background:white;
@@ -834,7 +911,8 @@ ul.socialIcons {
     background-color: #e3e3e3;
     border: 1px solid #e3e3e3;
     border-radius: 4px;
-    margin-top: 1px;
+   margin-top: -334px;
+
     color:black;
   }
 .div.bhoechie-tab-container{
@@ -982,3 +1060,70 @@ imgs {
     padding: -11px;
 
   }
+
+  /* .main-header {
+    margin-top: 36px;
+} */
+
+    .headerpart {
+        margin-top: -80px;
+        height: 121px;
+        margin-bottom: -108px;
+        background-color: blue;
+    }
+.img{
+    margin-top: 5px;
+    height:50px;
+}
+.images{
+    margin-top: 210px;
+    width:30px;
+    height:10px;
+}
+.imgs{
+    margin-top: 80px;
+    height:220px;
+}
+
+    .formlabel {
+        margin-right: 705px;
+        margin-bottom: 48px;
+        margin-top: 102px;
+        margin-left: 35px;
+        display: block;
+        text-align: center;
+        line-height: 150%;
+        font-size: 20px;
+        width: 154px;
+        text-align: center;
+}
+.tables {
+    width: 170%;
+    max-width: 221%;
+    margin-bottom: 20px;
+    margin-top: 27px;
+    margin-left: 21px;
+}
+
+.navbar {
+    background-color: blue;
+    color: blue;
+    border-color: blue;
+}
+.navbar-collapse.collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 30px;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    width: 26px;
+}

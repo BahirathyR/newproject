@@ -7,7 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('prodoc');
+  this.route('Dashboard');
   this.route('home');
   this.route('records');
 
@@ -16,7 +16,7 @@ Router.map(function() {
   this.route('marksheet');
   this.route('certificate');
   this.route('main');
-  this.route('govern');
+  this.route('docupload');
   this.route('service');
   this.route('share');
   this.route('audit');
@@ -24,6 +24,9 @@ Router.map(function() {
   this.route('admin');
   this.route('admincert');
   this.route('sentrequest');
+  this.route('dash');
+  this.route('adminissued');
+  this.route('adminupload');
 });
 
 export default Router;

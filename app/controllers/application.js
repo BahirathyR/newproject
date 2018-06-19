@@ -16,12 +16,7 @@ export default Controller.extend({
      },
      show4: function(){
     this.transitionToRoute('audit');
-     },
-     
-
-
-        sh: function() {
-              this.transitionToRoute('dash');
-         }, 
-            }
+     }
+    
+    }
 });
