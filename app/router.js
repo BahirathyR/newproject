@@ -27,6 +27,14 @@ Router.map(function() {
   this.route('dash');
   this.route('adminissued');
   this.route('adminupload');
+  this.route('employercert');
+  this.route('employerdash');
+  this.route('employerissued');
+  this.route('employerupload');
+  this.route('upload');
+  this.route('adminhost');
+  this.route('institutedash');
+  this.route('institute');
 });
 
 export default Router;

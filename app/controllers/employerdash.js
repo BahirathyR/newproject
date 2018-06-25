@@ -3,13 +3,13 @@ import Controller from '@ember/controller';
 export default Controller.extend({
     actions: {
         submit: function() {
-              this.transitionToRoute('adminupload');
+              this.transitionToRoute('employerupload');
         },
         sub: function(){
-        this.transitionToRoute('adminissued');
+        this.transitionToRoute('employerissued');
          },
          su: function(){
-      this.transitionToRoute('admincert');
+      this.transitionToRoute('employercert');
       },         
          
       }

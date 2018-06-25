@@ -1,76 +1,57 @@
- <div class ="homesscreen">      
- 
-         <div class="headerpart"> <img src="assets/image/gon.png" height="110" width="200" margin-top="1000px" margin-bottom="-20px" margin-left="1px" margin-top= "-150px"padding-top="20px" />
-         <p class="main-header" style= "text-align:center;margin-top:-69px;font-weight:bold;font-size:18px;"><h2>GOVERNMENT OF MAHARASHTRA</h2></p>
 
-<div class="navbar">
-  <a href="admin"  class="glyphicon glyphicon-home" style="color:white;    margin-top: 21px;
-">Home</a>
-  <a href="main"  class="glyphicon glyphicon-phone" style="color:white;    margin-top: 21px;    margin-left: 1188px;
-">Contact</a>
+<div class ="homesscreen">      
+ 
+         <div class="headerpart"> <img class="im" src="assets/image/gon.png" height="110" width="200" margin-top="1000px" margin-bottom="-20px" margin-left="1px" margin-top= "-150px"padding-top="20px" />
+         <p class="main-header" style= "text-align:center;margin-top:-69px;font-weight:bold;font-size:18px;color:white"><h2>GOVERNMENT OF MAHARASHTRA</h2></p>
+
+<div class="navbar" style="    margin-top: 23px;">
+
+  <a href="main"  class="glyphicon glyphicon-home" style="color:white;    margin-top: 21px;
+margin-right: 1217px;">Home</a>
+  <a href="main"  class="fa fa-users" style="color:white;    margin-top: -13px;    margin-left: 1188px;
+">Admin</a>
      
 </div>
           
        </div>
        
      </div>
-<div class="container">
-	<div class="row">
-	
-    
-    <form>
-  {{!-- <div class="row">
+     <br><br>
+<div class="wrapper" id="page-wrapper"    style="background-color:#178cb994;">
+<h1 style="margin-top:75px; font-size:20;    margin-left: 160px;"> Welcome To DMS  </h1>      
 
-            <div class="col-xs-6">
-                <input type="text" class="form-control">
-            </div>
-            <div class="col-xs-6">
-                <input type="text" class="form-control">
-            </div>
-            
-        </div> --}}
+	<div class="containe" id="content" tabindex="-1" >
 
-        <br><center>
-        <div class="row">
-            <div class="col-xs-3">
-         {{!-- <center> <button  type="button" id="myButton"class="btn btn-primary" style="height:40px;color:whitesmoke;margin-top:-50px;margin-right:92px;background-color:blue"{{action "Submit"}}>Get MarkSheet</button></center> --}}
 
-    <button  type="button" id="mybutton" class="btn btn-primary" style="height: 137px;color:black; font-size: -5px;    margin-left: 32px;
-"{{action "submit"}}>Document Uploads</button>
-            </div>
-            <div class="col-xs-3">
-<button  type="button" id="mybutton" class="btn btn-primary" style="height: 137px;color:black; font-size: -5px;margin-left: 102px;
-px; 
+	<div class="row" style="margin-right: -15px;
+    margin-left: -15px;
+    width: 652px;    margin-top: 52px;height:449px">
 
-"{{action "sub"}}>Document Issued</button>            
-</div>
-            {{!-- <div class="col-xs-3">
-<button  type="button" id="mybutton" class="btn btn-primary" style="height: 137px;color:black; font-size: -5px;margin-left:5px
-"{{action "mit"}}>Pull Document</button>            </div> --}}
-            <div class="col-xs-3">
-<button  type="button" id="mybutton" class="btn btn-primary" style="height: 137px;color:black; font-size: -5px;margin-left:161px
-"{{action "su"}}>Request Document </button>            </div> <br>  
-        </div><br><br></center>
-        
-       
+              <h1  style="margin-left: 204px;
+    font-size: 20px">List Of Hosted Documents   </h1>
+             <br>
 
-</form>
- <div class="col-xs-12">
-    <img src="assets/image/edu.gif" class="form-control" style="width:100%;
-    height:200px" >
-            </div>
-    
-    
-    
-    
-    
-    
-    
-    
+                        <div class="metr" style="margin-top: -146px;">
+>
+                         <a class="metrostyle orgmetro" style="cursor: pointer" href="../UserGUI/Users_List.aspx">
+
+                             <span class="fa fa-hospital-o" style="font-size: 2em; color: white; padding-left: 0.3em; margin-top: 3px;float:left"></span>
+                             <span style="color: white; font-size: 1.1em; float: right; margin-top: 5px; padding-right: 0.2em"></span>
+                             <span style="color: white; float: left; margin-top: 35px; margin-left: 10px;margin-right:80px">SSC DOC </span>
+                         </a>
+                         <a class="metrostyle eenmetro" style="cursor: pointer" href="">
+
+                             <span class="fa fa-hospital-o" style="font-size: 2em; color: white; padding-left: 0.3em; margin-top: 3px ;float:left"></span>
+                             <span style="color: white; font-size:  1.1em; float: right; margin-top: 5px; padding-right: 0.2em"></span>
+                             <span style="color: white; float: left; margin-top: 35px; margin-left: 10px ;margin-right:50px">HSC DOC </span>
+
+                         </a>
+                         <a style="cursor: pointer" class="metrostyle metrostylelarge  boometro" href="../Medical/Hospitals_List.aspx">
+                                <span class="fa fa-hospital-o" style="font-size:2em;color:white;padding-left:0.3em;margin-top:3px;float:left"></span>
+                                <span style="color:white;font-size: 1.1em;float:right;margin-top:5px;padding-right:0.2em"></span>   
+                                <span style="color:white;float:left;margin-top:1px;margin-left:41px;margin-right:50px"> OTHER DOCS </span>
+                            </a>
+                             </div> 
 	</div>
 </div>
-<style>
-    textarea.form-control {
-    height: 137px;
-}
-</style>
+</div>
