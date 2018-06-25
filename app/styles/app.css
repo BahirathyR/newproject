@@ -3082,3 +3082,7 @@ imgs {
   border-color: #428bca;
   margin-left: 147px;
 }
+.form-control
+{
+  height:20px;
+}
