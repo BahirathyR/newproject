@@ -217,7 +217,9 @@ table{
     margin-left: -44px; 
 } 
    
-
+#middle{
+  padding-top: 49px;
+}
 .dropdown{
     padding-top:10px;
 }
@@ -546,6 +548,11 @@ label {
     font-weight: 700;
     color: white;
 }
+align-middle{
+   text-align: center;
+   justify-content: center;
+}
+
 }
 
 
