@@ -27,12 +27,12 @@ export default Controller.extend({
             Sub: function() {
                 this.transitionToRoute('marksheet');
             },
-            S: function() {
+            Sb: function() {
                 this.transitionToRoute('marksheet');
             },
     
         
-          Su: function() {
+          S: function() {
         this.transitionToRoute('marksheet');
     }
 }

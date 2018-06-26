@@ -618,8 +618,9 @@ label {
    }
    
    .homescreen{
-    background-image: url(https://education.maharashtra.gov.in/img/head2.jpg);
+    /* background-image: url(https://education.maharashtra.gov.in/img/head2.jpg); */
     background-position: center;
+    background-color: rgb(48, 87, 97);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
